@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
 body { 
 	background: linear-gradient(to bottom,rgb(245,246,250),rgb(203,170,117),rgb(192,144,18))fixed;
 }
@@ -17,7 +21,7 @@ h1 {
     margin: 0 auto;
     border-radius: 30px;
     padding: 10px;
-    box-shadow:-10px -10px #adad85;
+    box-shadow:-10px -10px 5px #adad85;
     margin-top: 30px;
 }
 #num {
@@ -110,6 +114,6 @@ input,p {
     color: white;
     font-size: 1.5em;
     font-family: arial;
-    box-shadow: 5px 5px 5px #adad85;
+    box-shadow: 3px 3px 3px #adad85;
 
 }
