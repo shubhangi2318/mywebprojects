@@ -18,3 +18,7 @@ img{
 
 
 }
+img:hover{
+	transform:scale(1.04);
+	box-shodow: 0 0 10px grey;
+}
